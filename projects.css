@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+  background-color: whitesmoke; 
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.all{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 10px ;
+    padding: 10px;
+    aspect-ratio: 4/2;
+
+}
+
+.chanel{
+    background-color:#A52A2A ;
+    height: 80%;
+    
+}
+
+.Full{
+background-color:#800020 ;
+ height: 80%;
+}
+
+.Meal{
+background-color:#6E260E ;
+ height: 80%;
+}
+
+.play{
+background-color: #954535;
+ height: 80%;
+}
+
+.order{
+    background-color: #9A2A2A;
+     height: 80%;
+}
+
+.cards{
+background-color:#8B0000 ;
+ height: 80%;
+}

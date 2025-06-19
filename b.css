@@ -1,0 +1,34 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.box1{
+    background-color: purple;
+    width: 500px;
+    height: 200px;
+    top: 0;
+    left: 40px;
+    position: relative;
+    transform:rotate(2deg);
+    border-radius: 10px;
+}
+
+.box2{
+    background-color: blue;
+    width: 500px;
+    height: 200px;
+    top: 5px;
+    left: 40px;
+    position: absolute;
+    transform: rotate(5        deg);
+    border-radius: 10px;
+}
+.box3{
+    background-color: yellow;
+    width: 500px;
+    height: 200px;
+    top: 10px;
+    left: 50px;
+    position: absolute;
+   border-radius: 10px;
+}

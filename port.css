@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: burlywood; 
+  padding: 20px;
+  color: #f5f0eb; 
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr 2fr;
+  grid-template-rows: auto auto 1fr;
+  gap: 10px;
+  padding: 40px;
+}
+
+header {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+header h1 {
+  font-style: italic;
+  font-weight: 400;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #f5f0eb;
+  font-weight: 500;
+}
+
+.hero-text {
+  background-color: #5a4a42; 
+  padding: 30px;
+  border-radius: 12px;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.4;
+  border: 3px solid #8b6f47; 
+  position: relative;
+  max-width: 100%;
+  height: 50%;
+}
+
+.hero-text em {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.hero-text::after {
+  content: "\273F";
+  font-size: 40px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #bba187; 
+}
+
+.profile-img {
+  max-width: 70%;
+  height: 80%;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.bio {
+  background-color: #5a4a42;
+  padding: 20px;
+  border-radius: 12px;
+  font-size: 14px;
+  color: #f5f0eb;
+}
+
+.contact {
+  background-color: #7a5c41; 
+  padding: 40px 20px;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: #f5f0eb;
+}
+
+.contact::after {
+  content: "\2197";
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 20px;
+  color: #f5f0eb;
+}
+
+.projects {
+  background-color: #5a4a42;
+  border-radius: 12px;
+  padding: 20px;
+  color: #f5f0eb;
+  max-width: 100%;
+  height: 100%;
+}
+
+.project-item {
+  margin-top: 10px;
+  border-top: 1px solid #a3896e;
+  padding-top: 10px;
+}
+
+.project-img {
+ max-width: 50%;
+ border-radius: 20px;
+ 
+}
+
+footer {
+  grid-column: 1 / -1;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+footer a {
+  margin: 0 10px;
+  color: #f5f0eb;
+  text-decoration: none;
+}
+.project-item a{
+  text-decoration: none;
+  color: white;
+}
